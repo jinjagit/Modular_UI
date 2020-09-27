@@ -4,9 +4,9 @@ Modular UI elements, made with JS + CSS + Webpack. Lightweight and easy to use.
   
 Create UI layouts by specifying UI elements, row by row, within a div.  
 
-View the [example webpage](https://jinjagit.github.io/myUI/).  
+View the [example webpage](https://jinjagit.github.io/Modular_UI/).  
 
-See the [wiki](https://github.com/jinjagit/myUI/wiki) for more details.
+See the [wiki](https://github.com/jinjagit/Modular_UI/wiki) for more details.
 
 ## Aim
 To develop UI elements (sliders, buttons, etc.), that are:  
@@ -21,11 +21,11 @@ To develop UI elements (sliders, buttons, etc.), that are:
 
 ## Notes
 * Many UI element components are assigned ids, which may be useful for writing custom css styling.  
-  For example of custom tooltip, see `div#Modular_UI { ... }` and `div#Modular_UI:hover::after { ... }` styling in [`style.css`](https://github.com/jinjagit/myUI/blob/master/dist/css/style.css).  
+  For example of custom tooltip, see `div#Modular_UI { ... }` and `div#Modular_UI:hover::after { ... }` styling in [`style.css`](https://github.com/jinjagit/Modular_UI/blob/master/dist/css/style.css).  
 * Number input fields look funky on Linux version of FireFox = use Chromium.  
 
 ## Colors:
-To change colors, edit vars at top of [`style.css`](https://github.com/jinjagit/myUI/blob/master/dist/css/style.css) and [`uiElements.js`](https://github.com/jinjagit/myUI/blob/master/src/uiElements.js).    
+To change colors, edit vars at top of [`style.css`](https://github.com/jinjagit/Modular_UI/blob/master/dist/css/style.css) and [`uiElements.js`](https://github.com/jinjagit/Modular_UI/blob/master/src/uiElements.js).    
 
 Previous color-scheme (blue):  
 ```
