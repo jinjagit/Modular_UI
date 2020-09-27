@@ -8,17 +8,6 @@ View the [example webpage](https://jinjagit.github.io/Modular_UI/).
 
 See the [wiki](https://github.com/jinjagit/Modular_UI/wiki) for more details.
 
-## Aim
-To develop UI elements (sliders, buttons, etc.), that are:  
-* modular  
-* resizable  
-* functional (i.e. easy to use and good at what they do)  
-* clear  
-* 'modern / sci-fi(ish)'     
-* procedurally generated from a simple 'list' 
-* easy to configure / style      
-* easy to incorporate / maintain / alter  
-
 ## Notes
 * Many UI element components are assigned ids, which may be useful for writing custom css styling.  
   For example of custom tooltip, see `div#Modular_UI { ... }` and `div#Modular_UI:hover::after { ... }` styling in [`style.css`](https://github.com/jinjagit/Modular_UI/blob/master/dist/css/style.css).  
