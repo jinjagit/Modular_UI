@@ -1,5 +1,5 @@
 {
-  "name": "my-ui",
+  "name": "modular-ui",
   "version": "1.0.0",
   "description": "Developing ui elements with JS + CSS + Webpack",
   "main": "index.js",
