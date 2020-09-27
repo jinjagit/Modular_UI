@@ -25,9 +25,9 @@ const uiActions = (() => {
         leftSidebar.style.display = "none";
         rightSidebar.style.display = "none";
     } else if (id == "readme") {
-        window.location.href = "https://github.com/jinjagit/myUI/blob/master/README.md"
+        window.location.href = "https://github.com/jinjagit/Modular_UI/blob/master/README.md"
     } else if (id == "wiki") {
-        window.location.href = "https://github.com/jinjagit/myUI/wiki"
+        window.location.href = "https://github.com/jinjagit/Modular_UI/wiki"
     }
   };
 

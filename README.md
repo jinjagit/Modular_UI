@@ -13,24 +13,22 @@ See the [wiki](https://github.com/jinjagit/Modular_UI/wiki) for more details.
   For example of custom tooltip, see `div#Modular_UI { ... }` and `div#Modular_UI:hover::after { ... }` styling in [`style.css`](https://github.com/jinjagit/Modular_UI/blob/master/dist/css/style.css).  
 * Number input fields look funky on Linux version of FireFox = use Chromium.  
 
-## Colors:
-To change colors, edit vars at top of [`style.css`](https://github.com/jinjagit/Modular_UI/blob/master/dist/css/style.css) and [`uiElements.js`](https://github.com/jinjagit/Modular_UI/blob/master/src/uiElements.js).    
+## Getting Started
+You will need `node.js` installed and, optionally, `php` (used for local server - you can use an alternative, or just run index.html directly).  
 
-Previous color-scheme (blue):  
+* clone the repo.
+```  
+$ cd Modular_UI  
+$ npm init -y  
+$ npm install webpack --save-dev  
+$ npm install webpack-cli --save-dev  
+$ npx webpack --watch
 ```
-  --background: #002439;
-  --foreground: #275161;
-  --foreground-hover: #467181;
-  --foreground-active: #78cce2;
-  #dev-text-div {
-    background-color: rgb(20, 22, 31);
-  }
-  ```
-
-## Setup notes
-Built from basic webpack setup. Follow my readme @ https://github.com/jinjagit/webpack-source  
-
-## Useful dev commands
-* `$ npx webpack --watch`  
-* `$ php -S 127.0.0.1:8080`  
-* `$ git subtree push --prefix dist origin gh-pages`  
+* open another terminal:
+```
+$ cd Modular_UI/dist
+$ php -S 127.0.0.1:8080
+```
+* view the example UI running locally @ `127.0.0.1:8080`  
+* edit the appropriate files to your taste (see [wiki](https://github.com/jinjagit/Modular_UI/wiki) for details)  
+  
