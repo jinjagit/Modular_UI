@@ -372,6 +372,7 @@ input::-moz-focus-inner {padding:0; border:0;}
 #dev-text-div {
   height: 26px;
   width: 160px;
+  border-radius: 2px;
   padding-top: 10px;
   background-color: hsl(229, 22%, 10%);
   margin-left: calc(50% - 80px);
