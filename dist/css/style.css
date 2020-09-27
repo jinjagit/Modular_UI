@@ -320,7 +320,7 @@ input[type=number] {
 }
 .scroll::-webkit-scrollbar-thumb {
   background-color: var(--foreground-active) ;
-  border-radius: 6px;
+  border-radius: 2px;
   border: none;
 }
 
