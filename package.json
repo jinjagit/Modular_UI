@@ -1,0 +1,24 @@
+{
+  "name": "my-ui",
+  "version": "1.0.0",
+  "description": "Developing ui elements with JS + CSS + Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinjagit/myUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinjagit/myUI/issues"
+  },
+  "homepage": "https://github.com/jinjagit/myUI#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
