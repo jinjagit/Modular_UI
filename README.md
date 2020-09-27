@@ -27,3 +27,10 @@ $ php -S 127.0.0.1:8080
 * view the example UI running locally @ `127.0.0.1:8080`  
 * edit the appropriate files to your taste (see [wiki](https://github.com/jinjagit/Modular_UI/wiki) for details)  
   
+## License
+Licensed under either of these:
+
+* Apache License, Version 2.0, (LICENSE-APACHE or https://www.apache.org/licenses/LICENSE-2.0)
+* MIT license (LICENSE-MIT or https://opensource.org/licenses/MIT)
+
+  
