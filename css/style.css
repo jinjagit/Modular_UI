@@ -261,6 +261,7 @@ input[type=number] {
 .title-box {
   height: 110px;
   margin: 5px 5px 8px 5px;
+  width: calc(100% - 10px);
   border-style: solid;
   border-width: 2px;
   border-color: hsl(229, 25%, 22%);
