@@ -9,7 +9,7 @@ View the [example webpage](https://jinjagit.github.io/Modular_UI/).
 See the [wiki](https://github.com/jinjagit/Modular_UI/wiki) for more details.
 
 ## Getting Started
-You will need `node.js` installed and, optionally, `php` (used for local server - you can use an alternative, or just run index.html directly).  
+You will need `node.js` installed and, optionally, `php` (used for local server - you can use an alternative, or just run `index.html` directly).  
 
 * clone the repo.
 ```  
