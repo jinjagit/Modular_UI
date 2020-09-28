@@ -9,6 +9,7 @@
   --img-size: calc(var(--height) * 0.6);
   --radius1: 2px;
   --radius2: 3px;
+  --sidebar-width: 300px; /* specific width for a ui containing class */
 }
 
 body {
@@ -74,11 +75,11 @@ p {
 }
 
 #left-ui-container {
-  margin: 5px 5px 5px 0px;
+  margin: 5px 5px 0px 0px;
 }
 
 #right-ui-container {
-  margin: 5px 5px 5px 0px;
+  margin: 5px 5px 0px 0px;
 }
 
 #canvas {
@@ -260,7 +261,6 @@ input[type=number] {
 /* TITLE BOX */
 
 .title-box {
-  width: 285px;
   height: 110px;
   margin: 5px 5px 8px 5px;
   border-style: solid;

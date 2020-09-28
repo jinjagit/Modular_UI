@@ -8,44 +8,44 @@ const uiLayout = (() => {
     let parent = document.getElementById("left-ui-container");
 
     uiElements.addTitle("Modular_UI", "Procedurally_Generated", parent, true);
-    uiElements.addButtonRow(parent, [
-      ["readme", "action", 50],
-      ["wiki", "action", 50]
-    ]);
-    uiElements.addSlider("parameter_A", parent);
-    uiElements.addSlider("parameter_B", parent);
-    uiElements.addSlider("parameter_C", parent, 3, 1, 5, 1);
-    uiElements.addButtonRow(parent, [
-      ["toggle_A", "toggle", 40, true],
-      ["toggle_B", "toggle", 60, false]
-    ]);
-    uiElements.addButtonRow(parent, [
-      ["toggle_C", "toggle", 33, true],
-      ["toggle_D", "toggle", 34, false],
-      ["toggle_E", "toggle", 33, true]
-    ]);
-    uiElements.addButtonRow(parent, [
-      ["action_A", "action", 50],
-      ["action_B", "action", 50]
-    ]);
-    uiElements.addText(
-      "actions",
-      parent,
-      ["Last 3 actions:",
-        "<br />",
-        "<br />",
-        "<br />",
-        "<br />"]
-    );
-    uiElements.addButtonRow(parent, [
-      ["get_parameter_values", "action", 100]
-    ]);
-    uiElements.addScrollText(
-      "params",
-      parent,
-      ["<br />"],
-      6
-    );
+    // uiElements.addButtonRow(parent, [
+    //   ["readme", "action", 50],
+    //   ["wiki", "action", 50]
+    // ]);
+    // uiElements.addSlider("parameter_A", parent);
+    // uiElements.addSlider("parameter_B", parent);
+    // uiElements.addSlider("parameter_C", parent, 3, 1, 5, 1);
+    // uiElements.addButtonRow(parent, [
+    //   ["toggle_A", "toggle", 40, true],
+    //   ["toggle_B", "toggle", 60, false]
+    // ]);
+    // uiElements.addButtonRow(parent, [
+    //   ["toggle_C", "toggle", 33, true],
+    //   ["toggle_D", "toggle", 34, false],
+    //   ["toggle_E", "toggle", 33, true]
+    // ]);
+    // uiElements.addButtonRow(parent, [
+    //   ["action_A", "action", 50],
+    //   ["action_B", "action", 50]
+    // ]);
+    // uiElements.addText(
+    //   "actions",
+    //   parent,
+    //   ["Last 3 actions:",
+    //     "<br />",
+    //     "<br />",
+    //     "<br />",
+    //     "<br />"]
+    // );
+    // uiElements.addButtonRow(parent, [
+    //   ["get_parameter_values", "action", 100]
+    // ]);
+    // uiElements.addScrollText(
+    //   "params",
+    //   parent,
+    //   ["<br />"],
+    //   6
+    // );
 
     // Right sidebar
     parent = document.getElementById("right-ui-container");
