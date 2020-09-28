@@ -61,7 +61,7 @@ p {
 .sidebar {
   position: relative;
   height: var(--height);
-  width: 300px;
+  width: 350px;
   z-index: 2;
   background-color: var(--background);
 }
@@ -261,7 +261,7 @@ input[type=number] {
 .title-box {
   height: 110px;
   margin: 5px 5px 8px 5px;
-  width: calc(100% - 9px); /* why is this -9, not -10 ?? */
+  width: calc(100% - 9px); /* no idea why is this -9, not -10, but it works! */
   border-style: solid;
   border-width: 2px;
   border-color: hsl(229, 25%, 22%);
@@ -281,7 +281,7 @@ input[type=number] {
 /* TEXT BOX */
 
 .text-box {
-  width: calc(100% - 29px); /* why is this -29, not -30 ?? */;
+  width: calc(100% - 29px); /* no idea why is this -29, not -30, but it works! */
   margin: 0px 5px 8px 5px;
   padding: 8px 10px 6px 10px;
   line-height: 24px;
@@ -294,7 +294,7 @@ input[type=number] {
 /* SCROLLABLE TEXT BOX */
 
 .scroll-box {
-  width: 265px;
+  width: calc(100% - 29px); /* no idea why is this -29, not -30, but it works! */
   margin: 0px 5px 8px 5px;
   padding: 8px 10px 6px 10px;
   line-height: 24px;
