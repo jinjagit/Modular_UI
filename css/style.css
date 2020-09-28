@@ -281,7 +281,7 @@ input[type=number] {
 /* TEXT BOX */
 
 .text-box {
-  width: 265px;
+  width: calc(100% - 29px); /* why is this -29, not -30 ?? */;
   margin: 0px 5px 8px 5px;
   padding: 8px 10px 6px 10px;
   line-height: 24px;
