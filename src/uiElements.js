@@ -90,14 +90,15 @@ const uiElements = (() => {
 
   // Create a row of buttons, and their behaviours.
   const addButtonRow = (parent, buttons) => {
+    console.log(parent.offsetWidth);
     let buttonRow = document.createElement('div');
     buttonRow.classList.add('button-row');
 
     let num = buttons.length;
-    let totalGaps = ((num - 1) * 8) + 10;
+    let totalGaps = ((num - 1) * 8) + 5;
 
     for (let i = 0; i < num; i++) {
-      let buttonW = `${(300 - totalGaps) * buttons[i][2] / 100}px`;
+      let buttonW = `${(parent.offsetWidth - totalGaps) * buttons[i][2] / 100}px`;
       let button = null;
       
       if (buttons[i][1] == "toggle") {
