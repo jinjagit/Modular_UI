@@ -348,6 +348,7 @@ div#Modular_UI:after {
   content: "";
 }
 
+/* Tooltip: contains dimensions relative to specific UI div width used */
 div#Modular_UI:hover::after {
   content: "Click to hide UI";
   position: absolute;
