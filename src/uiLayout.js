@@ -1,4 +1,4 @@
-// See wiki for more details: https://github.com/jinjagit/myUI/wiki
+// See wiki for more details: https://github.com/jinjagit/Modular_UI/wiki
 
 import { uiElements } from './uiElements'
 
