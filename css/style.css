@@ -7,6 +7,8 @@
   --width: max(1024px, 100vw);
   --height: max(720px, 100vh);
   --img-size: calc(var(--height) * 0.6);
+  --radius1: 2px;
+  --radius2: 3px;
 }
 
 body {
@@ -38,7 +40,7 @@ input {
   font-family: 'Oxanium', cursive;
   color: var(--font);
   background: var(--foreground);
-  border-radius: 2px;
+  border-radius: var(--radius1);
   text-align: center;
   -webkit-transition: .1s; /* 0.1 seconds transition on hover */
   transition: .1s;
@@ -149,7 +151,7 @@ p {
   appearance: none;
   width: 100%; /* Full-width */
   height: 10px; /* Specified height */
-  border-radius: 2px;
+  border-radius: var(--radius1);
   background: var(--foreground);
   outline: none; /* Remove outline */
   -webkit-transition: .2s; /* 0.2 seconds transition on hover */
@@ -163,7 +165,7 @@ input[type=range]::-moz-range-track {
   height: 10px;
   cursor: pointer;
   background: var(--foreground);
-  border-radius: 2px;
+  border-radius: var(--radius1);
   border: none;
   outline: none;
 }
@@ -175,7 +177,7 @@ input[type=range]::-moz-range-track {
   appearance: none;
   width: 10px; /* Set a specific slider handle width */
   height: 10px; /* Slider handle height */
-  border-radius: 2px;
+  border-radius: var(--radius1);
   background: var(--foreground-active);
   cursor: pointer; /* Cursor on hover */
   -webkit-transition: .2s; /* 0.2 seconds transition on hover */
@@ -185,7 +187,7 @@ input[type=range]::-moz-range-track {
 .slider::-moz-range-thumb {
   width: 10px; /* Set a specific slider handle width */
   height: 10px; /* Slider handle height */
-  border-radius: 2px;
+  border-radius: var(--radius1);
   background: var(--foreground-active);
   border: none;
   cursor: pointer; /* Cursor on hover */
@@ -236,7 +238,7 @@ input[type=number] {
   display: inline-block;
   height: 30px;
   margin-left: 5px;
-  border-radius: 2px;
+  border-radius: var(--radius1);
   line-height: 32px;
   background-color: var(--foreground);
   color: var(--font);
@@ -264,7 +266,7 @@ input[type=number] {
   border-style: solid;
   border-width: 2px;
   border-color: hsl(229, 25%, 22%);
-  border-radius: 3px;
+  border-radius: var(--radius2);
 }
 
 .title-text {
@@ -287,7 +289,7 @@ input[type=number] {
   border-style: solid;
   border-width: 2px;
   border-color: hsl(229, 25%, 22%);
-  border-radius: 3px;
+  border-radius: var(--radius2);
 }
 
 /* SCROLLABLE TEXT BOX */
@@ -302,7 +304,7 @@ input[type=number] {
   border-style: solid;
   border-width: 2px;
   border-color: hsl(229, 25%, 22%);
-  border-radius: 3px;
+  border-radius: var(--radius2);
 }
 
 /* SCROLLABLE CLASS */
@@ -320,7 +322,7 @@ input[type=number] {
 }
 .scroll::-webkit-scrollbar-thumb {
   background-color: var(--foreground-active) ;
-  border-radius: 2px;
+  border-radius: var(--radius1);
   border: none;
 }
 
@@ -354,7 +356,7 @@ div#Modular_UI:hover::after {
   left: 3.52em;
   width: 158px;
   text-align: center;
-  border-radius: 2px;
+  border-radius: var(--radius1);
   padding: 8px;
   color: var(--font);
   background-color: var(--foreground);
@@ -372,7 +374,7 @@ input::-moz-focus-inner {padding:0; border:0;}
 #dev-text-div {
   height: 26px;
   width: 160px;
-  border-radius: 2px;
+  border-radius: var(--radius1);
   padding-top: 10px;
   background-color: hsl(229, 22%, 10%);
   margin-left: calc(50% - 80px);
