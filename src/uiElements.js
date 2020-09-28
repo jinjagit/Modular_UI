@@ -220,7 +220,7 @@ const uiElements = (() => {
     scrollBox.classList.add('scroll-box');
     scrollBox.classList.add('scroll');
     scrollBox.id = name;
-    scrollBox.style.height = `${(lines * 24) + 20}px`;
+    scrollBox.style.height = `${((lines - 1) * 24) + 20}px`;
 
     for (let i = 0; i < paragraphs.length; i++) {
       let paragraph = document.createElement('p');

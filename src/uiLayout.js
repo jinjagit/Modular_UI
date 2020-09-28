@@ -74,7 +74,7 @@ const uiLayout = (() => {
         "<br />",
         "It has a fixed height and is useful when a variable quantity of text may be output to the text box.",
         "Each paragraph is given an id value and thus can be styled &/or updated individually."],
-      3
+      4
     );
     uiElements.addButtonRow(parent, [
       ["action_C", "action", 50],
