@@ -116,7 +116,6 @@ p {
 .sliderDiv {
   height: 50px;
   margin-left: 5px;
-  width: 290px;
 }
 
 .sliderTopDiv {
@@ -232,7 +231,6 @@ input[type=number] {
 
 .button-row {
   margin-bottom: 8px;
-  width: 300px;
 }
 
 .button {
