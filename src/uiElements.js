@@ -166,7 +166,6 @@ const uiElements = (() => {
     let titleBox = document.createElement('div');
     titleBox.id = title;
     titleBox.classList.add('title-box');
-    titleBox.style.width = `${parent.offsetWidth - 10}px`;
 
     if (hasAction == true) {
       titleBox.onmouseover = function() {
