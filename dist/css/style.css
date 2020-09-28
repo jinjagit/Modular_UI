@@ -9,7 +9,6 @@
   --img-size: calc(var(--height) * 0.6);
   --radius1: 2px;
   --radius2: 3px;
-  --sidebar-width: 300px; /* specific width for a ui containing class */
 }
 
 body {
@@ -57,7 +56,7 @@ p {
 }
 
 /* SIDEBAR */
-
+/* Example ui containing class with specific width - elements will auto-fit */
 .sidebar {
   position: relative;
   height: var(--height);
@@ -73,7 +72,8 @@ p {
 #right-sidebar {
   float: right;
 }
-
+/* ui-container should be placed within the parent UI div. */
+/* These divs help align the elements they contain.        */
 #left-ui-container {
   margin: 5px 5px 0px 0px;
 }
