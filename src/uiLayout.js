@@ -44,7 +44,7 @@ const uiLayout = (() => {
       "params",
       parent,
       ["<br />"],
-      5
+      6
     );
 
     // Right sidebar
