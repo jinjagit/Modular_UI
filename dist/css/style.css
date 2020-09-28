@@ -61,7 +61,7 @@ p {
 .sidebar {
   position: relative;
   height: var(--height);
-  width: 350px;
+  width: 300px;
   z-index: 2;
   background-color: var(--background);
 }

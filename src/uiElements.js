@@ -94,7 +94,7 @@ const uiElements = (() => {
     buttonRow.classList.add('button-row');
 
     let num = buttons.length;
-    let totalGaps = ((num - 1) * 8) + 5;
+    let totalGaps = ((num - 1) * 8) + 5; // gaps between buttons + 1st margin-left
 
     for (let i = 0; i < num; i++) {
       let buttonW = `${(parent.offsetWidth - totalGaps) * buttons[i][2] / 100.0}px`;
